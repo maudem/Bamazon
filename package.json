@@ -1,0 +1,26 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "dependencies",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "easy-table": "^1.1.0",
+    "inquirer": "^3.0.6",
+    "mysql": "^2.13.0",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maudem/Bamazon.git"
+  },
+  "author": "Maude",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maudem/Bamazon/issues"
+  },
+  "homepage": "https://github.com/maudem/Bamazon#readme"
+}
