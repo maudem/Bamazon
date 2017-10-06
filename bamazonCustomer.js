@@ -26,21 +26,21 @@ connection.connect(function(err) {
 connection.query("SELECT * FROM products", function(err, res) 
 {
 
-var end = function(){
- 	inquirer.prompt([{
- 		name: "startOver",
- 		type: "confirm",
- 		message: "would you like to make another purchase?"
- 	//default: False
-	}]).then(function(answer){
+// var end = function(){
+//  	inquirer.prompt([{
+//  		name: "startOver",
+//  		type: "confirm",
+//  		message: "would you like to make another purchase?"
+//  	//default: False
+// 	}]).then(function(answer){
  		
- 		if (answer.startOver === "Yes"){
- 			customerPrompts();
- 		}else if(answer.startOver === "No"){
- 		connection.end();
- 		}
- });
-}	
+//  		if (answer.startOver === "Yes"){
+//  			customerPrompts();
+//  		}else if(answer.startOver === "No"){
+//  		connection.end();
+//  		}
+//  });
+// }	
 
 
 
